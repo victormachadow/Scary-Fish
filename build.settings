@@ -1,0 +1,34 @@
+settings =
+{
+
+
+    plugins =
+    {
+        ["facebook"] =
+        {
+            publisherId = "com.coronalabs"
+        },
+    },
+
+
+  android =
+  {
+    usesPermissions =
+    {
+      "android.permission.INTERNET",
+    },
+  }
+,
+
+	orientation =
+ 	{
+		default = "landscapeRight",
+		supported =
+ 		{
+			"landscapeRight",
+			"landscapeLeft"
+ 		}
+
+
+	}
+}
